@@ -1,8 +1,7 @@
 /*configs collection model*/
 const mongoose = require('mongoose')
-let Schema = mongoose.Schema
 const timestamps = require('mongoose-timestamp')
-let configSchema = new Schema({
+let configSchema = new mongoose.Schema({
 	order_id : {
 		type : Number,
 		required : true,

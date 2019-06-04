@@ -1,0 +1,28 @@
+{
+  "name": "ManfacApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Config.model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amlanmallik/warehouse_management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amlanmallik/warehouse_management/issues"
+  },
+  "homepage": "https://github.com/amlanmallik/warehouse_management#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "mongoose": "^5.5.12",
+    "node-cron": "^2.0.3",
+    "serialize-error": "^4.1.0"
+  }
+}

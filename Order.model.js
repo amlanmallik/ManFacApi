@@ -1,8 +1,7 @@
 /*orders collection model*/
 const mongoose = require('mongoose')
-let Schema = mongoose.Schema
 const timestamps = require('mongoose-timestamp')
-let orderSchema = new Schema({
+let orderSchema = new mongoose.Schema({
 	order_id : {
 		type : Number,
 		required : true,
