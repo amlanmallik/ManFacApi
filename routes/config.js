@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.router();
 const DBref = require('../dbRef.js');  //db connectivity
 const serializeError = require('serialize-error');  //to serialize error sent via n/w.
-let ConfigModel = require('../Config.model.js');  //config schema.
+let ConfigModel = require('../Models/Config.model.js');  //config schema.
 let errorm = require('../errorMsg.js');
 
 router.post('/',function(req,res){
